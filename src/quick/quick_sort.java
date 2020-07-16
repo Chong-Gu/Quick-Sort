@@ -1,7 +1,7 @@
 package quick;
 
 public class quick_sort {
-	public static void main (String[] arg) {
+	public void main (String[] arg) {
 		int[] arr = {5, 1, 6, 2, 3, 4};
 		printArray(arr);
 		quickSort(arr, 0, arr.length-1);
